@@ -1,0 +1,3 @@
+[submodule "Stellaris/vendor/spdlog"]
+	path = Stellaris/vendor/spdlog
+	url = https://github.com/gabime/spdlog
