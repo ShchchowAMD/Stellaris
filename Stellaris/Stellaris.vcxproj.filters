@@ -27,9 +27,15 @@
     <ClInclude Include="src\Stellaris\EntryPoint.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\Stellaris\Log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Stellaris\Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Stellaris\Log.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
