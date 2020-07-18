@@ -1,6 +1,6 @@
 #pragma once
 
-#ifdef STELLARIS_WINDOWS
+#ifdef STELLARIS_PLATFORM_WINDOWS
 
 extern Stellaris::Application *Stellaris::CreateApplication();
 
@@ -18,4 +18,4 @@ int main(int argc, char **argv)
     delete app;
 }
 
-#endif // STELLARIS_WINDOWS
+#endif // STELLARIS_PLATFORM_WINDOWS
